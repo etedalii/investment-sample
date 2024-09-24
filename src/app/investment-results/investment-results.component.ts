@@ -16,6 +16,6 @@ export class InvestmentResultsComponent {
   //   return this.investmentService.resultData();
   // }
   results = computed(() => {
-    this.investmentService.resultData();
+    return this.investmentService.resultData();
   })
 }
